@@ -9,4 +9,15 @@ CREATE TABLE transactions (
 );
 ```
 
+```sql
+ALTER TABLE transactions
+ADD CONSTRAINT
+PRIMARY KEY (transaction_id);
+```
+
+```sql
+ALTER TABLE transactions
+DROP CONSTRAINT transaction_id;
+```
+
 [MySQL: PRIMARY KEYS](https://youtu.be/620DzFVz41o?si=Qsp_t5vWMBhUeJNq)
