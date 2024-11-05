@@ -23,15 +23,37 @@ ON martian.base_id = base.base_id;
 - Returns all records from the left table, and the matched records from the right table
 ![LEFTJOIN](./LEFT%20(OUTER)%20JOIN.png)
 
+```sql
+SELECT *
+FROM martian
+LEFT OUTER JOIN base
+  ON martian.base_id = base.base_id;
+```
+
 ### RIGHT (OUTER) JOIN
 
 - Returns all records from the right table, and the matched records from the left table
 ![RIGHTJOIN](./RIGHT%20(OUTER)%20JOIN.png)
 
+```sql
+SELECT *
+FROM martian
+RIGHT OUTER JOIN base
+  ON martian.base_id = base.base_id
+
+```
+
 ### FULL (OUTER) JOIN
 
 - Returns all records when there is a match in either left or right table
 ![FULLJOIN](./FULL%20(OUTER)%20JOIN.png)
+
+```sql
+SELECT *
+FROM martian
+FULL OUTER JOIN base
+  ON martian.base_id = base.base_id;
+```
 
 ### Cross Join
 
@@ -39,3 +61,9 @@ ON martian.base_id = base.base_id;
 ![CrossJoin](./Cross%20Join.png)
 
 [SQL Joins Explained |¦| Joins in SQL |¦| SQL Tutorial](https://youtu.be/9yeOJ0ZMUYw?si=crDjLLXKl3_5wRKe)
+
+```sql
+SELECT *
+FROM martian
+CROSS JOIN base;
+```
