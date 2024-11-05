@@ -9,7 +9,7 @@
 ### Inner Join
 
 - Returns records that have matching values in both tables
-![InnerJoin](./Inner%20Join.png)
+![InnerJoin](./join%20image/Inner%20Join.png)
 
 ```sql
 SELECT * 
@@ -21,7 +21,7 @@ ON martian.base_id = base.base_id;
 ### LEFT (OUTER) JOIN
 
 - Returns all records from the left table, and the matched records from the right table
-![LEFTJOIN](./LEFT%20(OUTER)%20JOIN.png)
+![LEFTJOIN](./join%20image/LEFT%20(OUTER)%20JOIN.png)
 
 ```sql
 SELECT *
@@ -33,7 +33,7 @@ LEFT OUTER JOIN base
 ### RIGHT (OUTER) JOIN
 
 - Returns all records from the right table, and the matched records from the left table
-![RIGHTJOIN](./RIGHT%20(OUTER)%20JOIN.png)
+![RIGHTJOIN](./join%20image/RIGHT%20(OUTER)%20JOIN.png)
 
 ```sql
 SELECT *
@@ -46,7 +46,7 @@ RIGHT OUTER JOIN base
 ### FULL (OUTER) JOIN
 
 - Returns all records when there is a match in either left or right table
-![FULLJOIN](./FULL%20(OUTER)%20JOIN.png)
+![FULLJOIN](./join%20image/FULL%20(OUTER)%20JOIN.png)
 
 ```sql
 SELECT *
@@ -58,12 +58,16 @@ FULL OUTER JOIN base
 ### Cross Join
 
 - combines every row on the left table with every row on the right table
-![CrossJoin](./Cross%20Join.png)
-
-[SQL Joins Explained |¦| Joins in SQL |¦| SQL Tutorial](https://youtu.be/9yeOJ0ZMUYw?si=crDjLLXKl3_5wRKe)
+![CrossJoin](./join%20image/Cross%20Join.png)
 
 ```sql
 SELECT *
 FROM martian
 CROSS JOIN base;
 ```
+
+---
+
+[SQL Joins Explained |¦| Joins in SQL |¦| SQL Tutorial](https://youtu.be/9yeOJ0ZMUYw?si=crDjLLXKl3_5wRKe)
+
+---
