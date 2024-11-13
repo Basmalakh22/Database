@@ -55,7 +55,7 @@ FROM order_line;
 
 ---
 
-## The SQL GROUP BY() Function
+## The SQL GROUP BY Statement
 
 - The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country".
 
