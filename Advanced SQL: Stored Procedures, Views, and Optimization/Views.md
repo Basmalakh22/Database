@@ -12,8 +12,5 @@ JOIN current_dept_emp c ON e.emp_no = c.emp_no
 JOIN department d ON c.dept_no = d.dept_no
 ```
 
-```sql
-```
-
 - [SQL Views In 4 Minutes: Super Useful! Wow! Crazy! Amazing! I'm Crying Tears Of SQL Joy.](https://youtu.be/vLLkNI-vkV8?si=BtV6weiJ-UTJPzlT)
 - [SQL VIEWS + Complex Queries, Cross Joins, Unions, and more! |¦| SQL Tutorial](https://youtu.be/8jU8SrAPn9c?si=Y7-0vczN99IVDkGP)
