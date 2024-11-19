@@ -10,3 +10,24 @@
 - One of the main differences between MongoDB and RDBMS is that RDBMS is a relational database while MongoDB is nonrelational. Likewise, while most RDBMS systems use SQL to manage stored data, MongoDB uses BSON for data storage -- a type of NoSQL database
 - While RDBMS uses tables and rows, MongoDB uses documents and collections. In RDBMS a table -- the equivalent to a MongoDB collection -- stores data as columns and rows. Likewise, a row in RDBMS is the equivalent of a MongoDB document but stores data as structured data items in a table. A column denotes sets of data values, which is the equivalent to a field in MongoDB.
 - MongoDB is also better suited for hierarchical storage.
+
+## MongoDB Structure
+
+- MongoDB: A database management system.
+- Database: Contains collections.
+- Collection: Similar to a table in relational databases, it contains multiple documents.
+- Document: A record in the collection, represented in a JSON-like format (BSON in storage).
+- Fields: Key-value pairs within a document.
+
+```json
+{
+  "name": "John Doe",
+  "age": 30,
+  "address": {
+    "city": "New York",
+    "zip": "10001"
+  },
+  "hobbies": ["reading", "cycling"]
+}
+
+```
