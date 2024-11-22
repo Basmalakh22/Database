@@ -1,6 +1,6 @@
 # CRUD Operations
 
-![CRUD Operations](./CRUD%20Operations.png)
+![CRUD Operations](./image/CRUD%20Operations.png)
 
 - The create operation is used to insert new documents in the MongoDB database.
 - The read operation is used to query a document in the database.
@@ -9,7 +9,7 @@
 
 ## How to perform CRUD operations
 
-![CRUD Operations](./CRUD%20Operation2.png)
+![CRUD Operations](./image/CRUD%20Operation2.png)
 
 ### Create operation
 
