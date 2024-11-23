@@ -25,3 +25,4 @@
 - `$limit` : Passes the first n documents unmodified to the pipeline where n is the specified limit. For each input document, outputs either one document (for the first n documents) or zero documents (after the first n documents).
 
 - `$unwind` : Deconstructs an array field from the input documents to output a document for each element. Each output document replaces the array with an element value. For each input document, outputs n documents where n is the number of array elements and can be zero for an empty array.
+- [🔥Mongodb Aggregation Tutorial | Aggregation Functions in Mongodb | Mongodb Tutorial | Simplicode](https://www.youtube.com/live/1s5RLZM8oCU?si=A7aSLDMpwK4qpvTf)
